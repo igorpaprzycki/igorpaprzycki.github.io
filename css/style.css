@@ -6,6 +6,37 @@ margin-top:0px;
 padding-top:0px;
 margin-top: -30px;
 }
+.skill1 h4{
+  font-size: 0.6rem !important;
+  line-height: 1.25rem !important;
+}
+h3{
+  font-size: 1.2rem !important;
+}
+.details h3{
+  font-size: 0.8rem !important;
+}
+p, ul{
+  font-size: 0.8rem !important;
+  line-height: 1rem !important;
+}
+.summary{
+  margin: 0em 0em !important;
+}
+.visible-print, .summary, .skills, .skills h3, .skill-list, h3, .clearfix{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.skill1 ul li{
+  padding-left:1em;
+  line-height: 1.42em;
+}
+.company_details, .clr1, .summary, .text-center p{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  color: #fff;
+  line-height: 1em;
+}
 }
 
 
@@ -16,7 +47,7 @@ p {margin: 0;}
 html, body{
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 110%;
-	background: #ffffff;
+	background: #f8f9f9;
 }
 body a{
 	transition:0.5s all;
@@ -36,7 +67,7 @@ a:focus {
 }
 /*-- header_top --*/
 .sidebar{
-  background:#bfbfbf;
+  background:#7986cb;
   top: 0px;
   padding:2em 30px;
 }
@@ -55,6 +86,7 @@ a:focus {
 }
 .details{
 	margin-top:2em;
+  margin-bottom: -5em;
 }
 .details h3{
 	font-weight:600;
@@ -93,7 +125,7 @@ address span{
 .glyphicon-file:before,.glyphicon-print:before,.glyphicon-envelope:before,.glyphicon-picture:before{
     margin-right: 9px;
   font-size: 22px;
-  color: #a7a7a7;
+  color: #5c6bc0;
 }
 .details_header{
 	padding: 0em 1em 0 2em;
@@ -152,20 +184,24 @@ address span{
 	font-size:0.9em;
 }
 .company_details p,.skill_info p,.education_details p{
-	color:#999;
+	color:#777777;
 	font-weight:300;
 	line-height:1.7em;
 }
 
 .skill_info ul{
-  color:#999;
+  color:#777777;
   font-weight:300;
   line-height:1.7em;
   
 }
 .cmpny1 {
-	border-bottom:3px dashed #999;
+	border-bottom:1px dashed #5c6bc066;
 	padding-bottom:1em;
+}
+.cmpny2 {
+  border-bottom:2px solid #5c6bc044;
+  padding-bottom:1em;
 }
 .skills{
 	margin:2em 0;
@@ -178,20 +214,22 @@ address span{
 }
 .skill1,.skill2{
 	 float:left;
-	 width:30%;
+	 width:25%;
+   
 }
+
 .skill1 h4,.skill2 h4{
 	color:#333;
 	font-weight:600;
 	margin-bottom:1em;
 	display:inline-block;
 }
-.skill1 ul,.skill2 ul{
+.skill1 ul,.skill1 p{
 	padding-left:1em;
+  line-height: 1.42em;
 }
-.skill1 ul li,.skill2 ul li{
-	color:#333;
-}
+
+
 .education  h3{
   background: #999;
   color: #FFF;
@@ -199,13 +237,13 @@ address span{
   display: inline-block;
 }
 h3.clr1{
-	background:#5a5858;
+	background:#5c6bc0;
 }
 h3.clr2{
 	background:#e9a820;
 }
 h3.clr3{
-	background:#3eb991;
+	background:#7986cb;
 }
 .copywrite{
 	padding-left:2em;
@@ -297,6 +335,7 @@ h3.clr3{
 }
 .details_header {
   padding: 0em 1em 0 1em;
+  margin-bottom: 2em;
 }
 .details_header ul li a {
   padding: 0 1em;
@@ -334,7 +373,7 @@ h3.clr3{
   font-size: 0.75em;
 }
 address span {
-  font-size: 0.8em;
+  font-size: 0.75em;
 }
 .contact-grid input[type="text"], .contact-grid textarea {
   width: 100%;
